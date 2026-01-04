@@ -1,6 +1,8 @@
 # GTSRB Traffic Sign Recognition Project
   
 > **Author: Rishab Hanamar**  
+> **Git Link:**
+https://github.com/rishab-14/Vehicle_Traffic_Sign_Detection_CNN_Metaclassifier
 
 ---
 
@@ -38,10 +40,11 @@ Class imbalance was mitigated using shuffled and balanced mini-batches during tr
 ```
 project_root/
 │
-├── data/
-│   ├── train/
-│   ├── test/
-│   └── processed/
+├── contents/
+│    └─gtsrb
+│       ├── Train/
+│       ├── Test/
+│       └── Train/
 │
 ├── traffic-sign-dectection-models.ipynb.ipynb
 ├── traffic-sign-detection-metalearner_main.ipynb
@@ -83,7 +86,7 @@ Python: 3.13.9
 
 ```
 
-Step 1: Copy the data set from the link provide above and unzip it in the contents folder with the folder name gtsrb. It should follow the above folder structure
+Step 1: Copy the data set from the link provide above (https://www.kaggle.com/datasets/meowmeowmeowmeowmeow/gtsrb-german-traffic-sign) and unzip it in the contents folder with the folder name "gtsrb". It should follow the above folder structure
 
 Step 2: Update/Check the paths in all the notebooks. DATASET_PATH
 

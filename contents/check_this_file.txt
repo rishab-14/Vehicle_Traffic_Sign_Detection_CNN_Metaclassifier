@@ -1,0 +1,10 @@
+Please download the dataset from Kaggle and extarct here over here.
+It should be under the folder name 'gtsrb'
+
+project_root/
+│
+├── contents/
+     └─gtsrb
+        ├── Train/
+        ├── Test/
+        └── Train/
